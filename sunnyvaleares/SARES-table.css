@@ -1,0 +1,56 @@
+/* $Id: SARES-table.css,v 2.6 2016-01-25 07:29:46+00 andreas Exp $ */
+P, UL, LI, DIV, OL, TABLE, TD, TH, UL, DL {
+	color: #000000; 
+	font-family: Arial,Helvetica,Verdana,sans-serif; 
+	font-size: medium ; }
+H1, H2, H3, H4 {
+	font-family: Arial,Helvetica,Verdana,sans-serif; }
+.YB {	color: #0000FF; 
+	background-color: #FFFF00; 
+	font-size: large ;
+	font-weight: bold ;
+	font-family: Arial,Helvetica,Verdana,sans-serif;
+	border: solid yellow; 
+	text-align: center; }
+.headbl { font-weight: bold ;
+	font-size: x-large ;
+	font-family: Arial,Helvetica,Verdanda,sans-serif; 
+	text-align: center; }
+.navleft { color: #000000 ; 
+	background-color: #FFFFFF ; 
+	font-style: normal;
+	font-size: small;
+	font-family: Arial,Helvetica,Verdana,sans-serif ; 
+	text-decoration:none ; 
+	text-transform: none;
+	text-align: left ; }
+a:link.navleftlink{color: #0000FF ; text-decoration: none; }
+a:visited.navleftlink{color: #8800FF; text-decoration: none; }
+a:active.navleftlink{color: #00FF00 ; font-weight: bold; text-decoration: none; }
+a:hover.navleftlink{color: #FF0000 ; font-weight: bold; text-decoration: none; }
+#rssinfo h1, #rssinfo h2, #rssinfo p, #rssinfo li {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+#rss {
+  text-align: left;
+  font-style: normal;
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+}
+#rss a.button, #rssinfo a.button {
+  font-family: Verdana, sans-serif, Helvetica, Arial;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #F60;
+  border-left: 1px solid #FC9;
+  border-top: 1px solid #FC9;
+  border-right: 1px solid #930;
+  border-bottom: 1px solid #930;
+  padding: 0 3px 0 3px;
+  margin-bottom: 2px;
+}
+#rss a.button:hover, #rssinfo a.button:hover {
+  color: #000;
+}
